@@ -28,9 +28,188 @@ namespace MoodTracker2._0
 
         }
 
-        private void FirJan(object sender, RoutedEventArgs e)
+        private void FirJanClick(object sender, RoutedEventArgs e)
         {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
 
+        private void SecJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void ThiJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void FouJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void FifJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void SixJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void SevJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void EigJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void NinJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void TenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void EleJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void TwelJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void ThteenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void FoteenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void FiteenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void SiteenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void SeteenJan(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
             MoodToday window = new MoodToday();
             window.Show();
         }

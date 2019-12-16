@@ -24,7 +24,7 @@ namespace MoodTracker2._0
 
         private void OnBadClick(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void OnNeutralClick(object sender, RoutedEventArgs e)

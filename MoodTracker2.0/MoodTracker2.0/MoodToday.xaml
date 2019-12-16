@@ -20,29 +20,29 @@
 
         <TextBlock Grid.Row="0" Text="What's your mood today?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" FontFamily="Bradley Hand ITC" FontWeight="Bold" Grid.ColumnSpan="3"/>
         <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnBadClick" Grid.Row="1" Grid.Column="0" >
-                <Button.Template>
-                    <ControlTemplate>
-                        <Grid x:Name="ControlLayout">
-                            <Ellipse Fill="MediumPurple"></Ellipse>
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid x:Name="ControlLayout">
+                        <Ellipse Fill="MediumPurple" ></Ellipse>
                         <Image Source="C:\Users\Валерия\Desktop\КДЗ ПРОГА\sadsmiley_85787.png"></Image>
-                        </Grid>
-                    </ControlTemplate>
-                </Button.Template>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
 
-            </Button>
+        </Button>
 
         <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnNeutralClick" Grid.Row="1" Grid.Column="1">
-                <Button.Template>
-                    <ControlTemplate>
-                        <Grid x:Name="pum">
-                            <Ellipse Fill="LightSkyBlue"></Ellipse>
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid x:Name="pum">
+                        <Ellipse Fill="LightSkyBlue"></Ellipse>
                         <Image Source="C:\Users\Валерия\Desktop\КДЗ ПРОГА\smile-icon-neutral-7.png"></Image>
-                        </Grid>
-                    </ControlTemplate>
-                </Button.Template>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
 
-            </Button>
-        <Button  Width="60" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center"  Margin="10" Background="Yellow" Click="OnGoodClick" Grid.Row="1" Grid.Column="2">
+        </Button>
+        <Button  Width="60" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Yellow" Click="OnGoodClick" Grid.Row="1" Grid.Column="2" RenderTransformOrigin="0.444,-0.772">
             <Button.Template>
                 <ControlTemplate>
                     <Grid x:Name="pam">
@@ -57,11 +57,14 @@
                 <ControlTemplate>
                     <Grid x:Name="pam">
                         <Ellipse ></Ellipse>
-                        <TextBlock Text="Close" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="33"/>
+                        <TextBlock FontFamily="Bradley Hand ITC" FontWeight="Bold" Text="Close" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="33"/>
                     </Grid>
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <TextBlock Text="Bad" Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="96" FontSize="25" FontFamily="Bradley Hand ITC" FontWeight="Bold"/>
+        <TextBlock Text="Neutral" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,207,0,0" FontSize="25" FontFamily="Bradley Hand ITC" FontWeight="ExtraBold" Width="100"/>
+        <TextBlock Text="Good" Grid.Column="2" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="96" FontSize="25" FontFamily="Bradley Hand ITC" FontWeight="Bold"/>
 
     </Grid>
-</Window>
+</Window> 
