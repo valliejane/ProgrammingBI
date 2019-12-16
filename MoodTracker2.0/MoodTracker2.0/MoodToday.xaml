@@ -9,45 +9,49 @@
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition />
+            <RowDefinition Height="150"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Text="What's your mood today?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" FontFamily="Bradley Hand ITC" FontWeight="Bold" />
-        <StackPanel Grid.Row="1">
-            <Button  Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Click="OnBadClick" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Text="What's your mood today?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" FontFamily="Bradley Hand ITC" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnBadClick" Grid.Row="1" Grid.Column="0" >
                 <Button.Template>
                     <ControlTemplate>
                         <Grid x:Name="ControlLayout">
                             <Ellipse Fill="MediumPurple"></Ellipse>
-                            <Image Source="C:\Users\Валерия\Downloads\sadsmiley_85787.png"></Image>
+                        <Image Source="C:\Users\Валерия\Desktop\КДЗ ПРОГА\sadsmiley_85787.png"></Image>
                         </Grid>
                     </ControlTemplate>
                 </Button.Template>
 
             </Button>
 
-            <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnNeutralClick">
+        <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnNeutralClick" Grid.Row="1" Grid.Column="1">
                 <Button.Template>
                     <ControlTemplate>
                         <Grid x:Name="pum">
                             <Ellipse Fill="LightSkyBlue"></Ellipse>
-                            <Image Source="C:\Users\Валерия\Downloads\smile-icon-neutral-7.png"></Image>
+                        <Image Source="C:\Users\Валерия\Desktop\КДЗ ПРОГА\smile-icon-neutral-7.png"></Image>
                         </Grid>
                     </ControlTemplate>
                 </Button.Template>
 
             </Button>
-            <Button  Width="60" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right"  Margin="10" Background="Yellow" Click="OnGoodClick">
-                <Button.Template>
-                    <ControlTemplate>
-                        <Grid x:Name="pam">
-                            <Ellipse Fill="Yellow"></Ellipse>
-                            <Image Source="C:\Users\Валерия\Downloads\happy-smile-png-3.png"></Image>
-                        </Grid>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
-        </StackPanel>
+        <Button  Width="60" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center"  Margin="10" Background="Yellow" Click="OnGoodClick" Grid.Row="1" Grid.Column="2">
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid x:Name="pam">
+                        <Ellipse Fill="Yellow"></Ellipse>
+                        <Image Source="C:\Users\Валерия\Desktop\КДЗ ПРОГА\happy-smile-png-3.png"></Image>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
 
     </Grid>
 </Window>
