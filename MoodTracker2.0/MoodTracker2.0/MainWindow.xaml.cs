@@ -28,6 +28,11 @@ namespace MoodTracker2._0
 
         }
 
+        private void FirJan(object sender, RoutedEventArgs e)
+        {
 
+            MoodToday window = new MoodToday();
+            window.Show();
+        }
     }
 }

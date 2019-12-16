@@ -33,7 +33,7 @@
                 <TextBlock Text="Friday" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Grid.Row="0" Grid.Column="4"/>
                 <TextBlock Text="Saturday" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Grid.Row="0" Grid.Column="5"/>
                 <TextBlock Text="Sunday" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" Grid.Row="0" Grid.Column="6"/>
-                <Button Content="01" Grid.Column="2" Grid.Row="1" Background="White"/>
+                <Button Content="01" Grid.Column="2" Grid.Row="1" Background="White" Click="FirJan"/>
                 <Button Content="02" Grid.Column="3" Grid.Row="1" Background="White"/>
                 <Button Content="03" Grid.Column="4" Grid.Row="1" Background="White"/>
                 <Button Content="04" Grid.Column="5" Grid.Row="1" Background="White"/>

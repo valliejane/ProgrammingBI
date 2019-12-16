@@ -13,11 +13,11 @@ using System.Windows.Shapes;
 namespace MoodTracker2._0
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для MoodToday.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class MoodToday : Window
     {
-        public Window1()
+        public MoodToday()
         {
             InitializeComponent();
         }
@@ -35,6 +35,11 @@ namespace MoodTracker2._0
         private void OnGoodClick(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void OnCloseClick(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
