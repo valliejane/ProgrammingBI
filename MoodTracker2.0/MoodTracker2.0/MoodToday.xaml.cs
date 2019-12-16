@@ -21,5 +21,20 @@ namespace MoodTracker2._0
         {
             InitializeComponent();
         }
+
+        private void OnBadClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnNeutralClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnGoodClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
