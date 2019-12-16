@@ -1,0 +1,53 @@
+﻿<Window x:Class="MoodTracker2._0.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoodTracker"
+        mc:Ignorable="d"
+        Title="MoodToday" Height="500" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="What's your mood today?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" FontFamily="Bradley Hand ITC" FontWeight="Bold" />
+        <StackPanel Grid.Row="1">
+            <Button  Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Click="OnBadClick" >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Grid x:Name="ControlLayout">
+                            <Ellipse Fill="MediumPurple"></Ellipse>
+                            <Image Source="C:\Users\Валерия\Downloads\sadsmiley_85787.png"></Image>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+            <Button  Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Click="OnNeutralClick">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Grid x:Name="pum">
+                            <Ellipse Fill="LightSkyBlue"></Ellipse>
+                            <Image Source="C:\Users\Валерия\Downloads\smile-icon-neutral-7.png"></Image>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+            <Button  Width="60" Height="60" VerticalAlignment="Center" HorizontalAlignment="Right"  Margin="10" Background="Yellow" Click="OnGoodClick">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Grid x:Name="pam">
+                            <Ellipse Fill="Yellow"></Ellipse>
+                            <Image Source="C:\Users\Валерия\Downloads\happy-smile-png-3.png"></Image>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,38 @@
+﻿<Window x:Class="MoodTracker2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoodTracker"
+        mc:Ignorable="d"
+        Title="Mood Tracker" Height="450" Width="600">
+    <TabControl>
+        <TabItem Header="January">
+
+
+        </TabItem>
+        <TabItem Header="February">
+        </TabItem>
+        <TabItem Header="March">
+        </TabItem>
+        <TabItem Header="April">
+        </TabItem>
+        <TabItem Header="May">
+        </TabItem>
+        <TabItem Header="June">
+        </TabItem>
+        <TabItem Header="July">
+        </TabItem>
+        <TabItem Header="August">
+        </TabItem>
+        <TabItem Header="September">
+        </TabItem>
+        <TabItem Header="October">
+        </TabItem>
+        <TabItem Header="November">
+        </TabItem>
+        <TabItem Header="December">
+        </TabItem>
+    </TabControl>
+
+</Window>
