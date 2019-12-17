@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Nado" Width="50" Height="50" Click="Button_Click"/>
-
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Welcome!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="80" FontFamily="Cooper Black" Grid.Row="0"/>
+        <Button Content="Start" Height="50" Width="90" Background="White" BorderBrush="White" FontSize="30" FontFamily="Cooper Black" Grid.Row="1" Click="Button_Click_1"/>
     </Grid>
 </Window>
