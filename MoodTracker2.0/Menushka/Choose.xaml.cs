@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoodTracker2._0;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -20,6 +21,12 @@ namespace Menushka
         public Choose()
         {
             InitializeComponent();
+        }
+
+        private void MoodTrackerClick(object sender, RoutedEventArgs e)
+        {
+            MoodTracker2._0.MainWindow window = new MoodTracker2._0.MainWindow();
+            window.Show();
         }
     }
 }

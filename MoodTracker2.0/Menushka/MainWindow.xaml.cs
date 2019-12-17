@@ -24,5 +24,11 @@ namespace Menushka
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Choose window = new Choose();
+            window.Show();
+        }
     }
 }
