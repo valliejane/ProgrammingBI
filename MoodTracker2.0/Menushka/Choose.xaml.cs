@@ -28,5 +28,10 @@ namespace Menushka
             MoodTracker2._0.MainWindow window = new MoodTracker2._0.MainWindow();
             window.Show();
         }
+
+        private void OnCloseChooseClick(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
