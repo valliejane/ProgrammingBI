@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodTracker2.0", "MoodTracker2.0\MoodTracker2.0.csproj", "{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoodTracker2.0", "MoodTracker2.0\MoodTracker2.0.csproj", "{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoodTracker", "MoodTracker", "{AD66F0D3-E876-4EAD-BA0A-C2EE626C8415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainMenu", "MainMenu", "{96F5E915-36C7-4796-B3AA-ECF0D5A8C0D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menushka", "Menushka\Menushka.csproj", "{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC} = {AD66F0D3-E876-4EAD-BA0A-C2EE626C8415}
+		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374} = {96F5E915-36C7-4796-B3AA-ECF0D5A8C0D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {920B8458-CD60-4C60-AB3E-27F72F8875D9}

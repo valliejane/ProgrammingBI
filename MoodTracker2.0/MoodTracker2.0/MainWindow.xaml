@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 
         mc:Ignorable="d"
-        Title="Mood Tracker" Height="450" Width="600">
+        Title="Mood Tracker" Height="450" Width="800">
     <TabControl>
-        <TabItem Header="January">
+        <TabItem Header="January" >
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -134,7 +134,7 @@
 
             </Grid>
         </TabItem>
-        <TabItem Header="March">
+        <TabItem Header="March" Width="60">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -204,8 +204,8 @@
                 <Button Content="04" Foreground="LightGray" Grid.Column="5" Grid.Row="6" IsEnabled="True" Background="White"/>
                 <Button Content="05" Foreground="LightGray" Grid.Column="6" Grid.Row="6" IsEnabled="True" Background="White"/>
             </Grid>
-        </TabItem>        
-        <TabItem Header="April">
+        </TabItem>
+        <TabItem Header="April" Width="60">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -268,7 +268,7 @@
                 <Button Content="03" Foreground="LightGray" Grid.Column="6" Grid.Row="5" IsEnabled="True" Background="White"/>
             </Grid>
         </TabItem>        
-        <TabItem Header="May">
+        <TabItem Header="May" Width="60">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -331,7 +331,7 @@
                 <Button Content="29" Foreground="LightGray" Grid.Column="2" Grid.Row="1" IsEnabled="True" Background="White"/>
             </Grid>
         </TabItem>        
-        <TabItem Header="June">
+        <TabItem Header="June" Width="60">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -393,8 +393,8 @@
                 <Button Content="04" Foreground="LightGray" Grid.Column="5" Grid.Row="5" IsEnabled="True" Background="White"/>
                 <Button Content="05" Foreground="LightGray" Grid.Column="6" Grid.Row="5" IsEnabled="True" Background="White"/>
             </Grid>
-        </TabItem>        
-        <TabItem Header="July">
+        </TabItem>
+        <TabItem Header="July" Width="60">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
