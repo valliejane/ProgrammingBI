@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 
         mc:Ignorable="d"
-        Title="Mood Tracker" Height="450" Width="600">
+        Title="Mood Tracker" Height="450" Width="800">
     <TabControl>
         <TabItem Header="January" >
             <Grid>
