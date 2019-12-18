@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoodTracker", "MoodTracker"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainMenu", "MainMenu", "{96F5E915-36C7-4796-B3AA-ECF0D5A8C0D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menushka", "Menushka\Menushka.csproj", "{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menushka", "Menushka\Menushka.csproj", "{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TO-DO", "TO-DO\TO-DO.csproj", "{31DD62CA-1273-4C8A-B79C-1DC7A1F9514F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB9EE2C-3BF1-40B9-BADD-57EB378D3374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DD62CA-1273-4C8A-B79C-1DC7A1F9514F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DD62CA-1273-4C8A-B79C-1DC7A1F9514F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DD62CA-1273-4C8A-B79C-1DC7A1F9514F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DD62CA-1273-4C8A-B79C-1DC7A1F9514F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
