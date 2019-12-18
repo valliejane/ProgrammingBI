@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoodTracker2.0", "MoodTrack
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoodTracker", "MoodTracker", "{AD66F0D3-E876-4EAD-BA0A-C2EE626C8415}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TO-Do_List", "TO-Do_List", "{10A94F10-1BEF-4E22-A9BD-F6DCE41CA66F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TO-DO", "TO-DO\TO-DO.csproj", "{58A6AA63-0D72-4962-9EBE-B5173158A141}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,17 +17,12 @@ Global
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58A6AA63-0D72-4962-9EBE-B5173158A141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58A6AA63-0D72-4962-9EBE-B5173158A141}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58A6AA63-0D72-4962-9EBE-B5173158A141}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58A6AA63-0D72-4962-9EBE-B5173158A141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C707E51-E0A1-43F5-94D9-F0A6F36D6EDC} = {AD66F0D3-E876-4EAD-BA0A-C2EE626C8415}
-		{58A6AA63-0D72-4962-9EBE-B5173158A141} = {10A94F10-1BEF-4E22-A9BD-F6DCE41CA66F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {920B8458-CD60-4C60-AB3E-27F72F8875D9}
