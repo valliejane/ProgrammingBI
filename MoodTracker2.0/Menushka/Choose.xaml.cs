@@ -1,4 +1,5 @@
 ﻿using MoodTracker2._0;
+using Notes;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,6 +24,8 @@ namespace Menushka
             InitializeComponent();
         }
 
+
+
         private void MoodTrackerClick(object sender, RoutedEventArgs e)
         {
             MoodTracker2._0.MainWindow window = new MoodTracker2._0.MainWindow();
@@ -34,9 +37,9 @@ namespace Menushka
             Close();
         }
 
-        private void TODOClick(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow window = new MoodToday();
+            Notes.MainWindow window = new Notes.MainWindow();
             window.Show();
         }
     }
