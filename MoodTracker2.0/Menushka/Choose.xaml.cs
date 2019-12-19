@@ -33,5 +33,11 @@ namespace Menushka
         {
             Close();
         }
+
+        private void TODOClick(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MoodToday();
+            window.Show();
+        }
     }
 }

@@ -60,7 +60,7 @@
                 <Button Content="25" Grid.Column="5" Grid.Row="4" Background="White" Click="Button_Click_7"/>
                 <Button Content="26" Grid.Column="6" Grid.Row="4" Background="White" Click="Button_Click_8"/>
                 <Button Content="27" Grid.Column="0" Grid.Row="5" Background="White" Click="Button_Click_9"/>
-                <Button Content="28" Grid.Column="1" Grid.Row="5" Background="White" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="85" Click="Button_Click_10"/>
+                <Button Content="28" Grid.Column="1" Grid.Row="5" Background="White" HorizontalAlignment="Center" Click="Button_Click_10" Width="114"/>
                 <Button Content="29" Grid.Column="2" Grid.Row="5" Background="White" Click="Button_Click_11"/>
                 <Button Content="30" Grid.Column="3" Grid.Row="5" Background="White" Click="Button_Click_12"/>
                 <Button Content="31" Grid.Column="4" Grid.Row="5" Background="White" Click="Button_Click_13"/>

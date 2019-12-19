@@ -16,12 +16,12 @@
             <RowDefinition/>
             
         </Grid.RowDefinitions>
-        <Button Content="To-do List" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="MediumTurquoise"/>
+        <Button Content="To-do List" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="MediumTurquoise" Click="TODOClick"/>
         <Button Content="Women's Calendar" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="LightPink"/>
         <Button Content="Schedule" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Thistle"/>
         <Button Content="Reminder" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightBlue"/>
         <Button Content="Habit Tracker" Grid.Column="0" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="DarkOrange"/>
-        <Button Content="Mood Tracker" Grid.Column="1" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="MoodTrackerClick"/>
+        <Button Content="Mood Tracker" Grid.Column="1" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Click="MoodTrackerClick" Background="MediumOrchid"/>
         <Button Content="Holidays" Grid.Column="1" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="ForestGreen"/>
         <Button Content="Notes" Grid.Column="1" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="NavajoWhite"/>
         <Button Content="Spendings Tracker" Grid.Column="1" Grid.Row="0" Width="120" Height="50" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Aquamarine" />
