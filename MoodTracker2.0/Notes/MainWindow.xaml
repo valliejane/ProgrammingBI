@@ -13,7 +13,7 @@
                 <ColumnDefinition Width="304*"/>
                 <ColumnDefinition Width="150" />
             </Grid.ColumnDefinitions>
-            <ListBox Name="notesBox" Margin="5,5,5,5.333" DisplayMemberPath="Name" Grid.ColumnSpan="2" />
+            <ListBox Name="notesBox" Margin="5,5,5,5.333" Grid.ColumnSpan="2" />
             <StackPanel Grid.Column="2" Margin="0,0,0,0.333">
                 <Button Content="Add" Height="30" Margin="5" Cursor="Hand" Click="OnSubjectAdd"/>
                 <Button Content="Edit" Height="30" Margin="5" Cursor="Hand" Click="OnSubjectEdited" />

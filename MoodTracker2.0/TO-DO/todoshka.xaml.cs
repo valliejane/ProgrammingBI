@@ -18,9 +18,9 @@ namespace TO_DO
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class todoshka : Window
     {
-        public MainWindow()
+        public todoshka()
         {
             InitializeComponent();
         }

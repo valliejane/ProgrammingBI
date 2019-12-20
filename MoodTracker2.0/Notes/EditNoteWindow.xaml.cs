@@ -18,8 +18,8 @@ namespace Notes
     public partial class EditNoteWindow : Window
     {
         private readonly Repository _repository;
-        private readonly Notes _notes;
-        public EditNoteWindow(Repository repository, Notes notes=null)
+        private readonly Notees _notes;
+        public EditNoteWindow(Repository repository, Notees notes=null)
         {
             InitializeComponent();
             _repository = repository;
@@ -33,24 +33,20 @@ namespace Notes
 
         private void OnOkClick(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrEmpty(noteTextbox.Text))
-            {
-                MessageBox.Show("Error! Name is a required field", "Subject error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
-
             if (_notes == null)
             {
-                _repository.Notess.Add(new Notes()
+                _repository.Notess.Add(new Notees()
                 {
-                    Note = noteTextbox.Text
+                    Note = noteTextbox.Text,
+
                 });
             }
             else
             {
                 _notes.Note = noteTextbox.Text;
+
             }
-            DialogResult = true;
+
             Close();
         }
 

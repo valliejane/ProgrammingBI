@@ -33,18 +33,18 @@ namespace Notes
             notesBox.ItemsSource = _repository.Notess;
         }
 
-        private void OnSubjectAdd(object sender, RoutedEventArgs e)
+        private void OnAddClick(object sender, RoutedEventArgs e)
         {
             var window = new EditNoteWindow(_repository);
             if (window.ShowDialog() == true)
                 UpdateNotes();
         }
 
-        private void OnSubjectEdited(object sender, RoutedEventArgs e)
+        private void OnEditClick(object sender, RoutedEventArgs e)
         {
             if (notesBox.SelectedItem != null)
             {
-                var note = notesBox.SelectedItem as Notes;
+                var note = notesBox.SelectedItem as Notees;
                 var window = new EditNoteWindow(_repository, note);
                 if (window.ShowDialog() == true)
                     UpdateNotes();
@@ -52,11 +52,11 @@ namespace Notes
             }
         }
 
-        private void OnSubjectDelete(object sender, RoutedEventArgs e)
+        private void OnDeleteClick(object sender, RoutedEventArgs e)
         {
             if (notesBox.SelectedItem != null)
             {
-                var note = notesBox.SelectedItem as Notes;
+                var note = notesBox.SelectedItem as Notees;
                 _repository.Notess.Remove(note);
                 UpdateNotes();
             }

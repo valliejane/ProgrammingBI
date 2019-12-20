@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Notes
 {
-    public class Notes
+    public class Notees
     {
         public string Note { get; set; }
     }

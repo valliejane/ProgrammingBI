@@ -25,6 +25,11 @@ namespace Menushka
             InitializeComponent();
         }
 
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Choose choose = new Choose();

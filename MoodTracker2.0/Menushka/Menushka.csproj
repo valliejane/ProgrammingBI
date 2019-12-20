@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MoodTracker2.0\MoodTracker2.0.csproj" />
     <ProjectReference Include="..\Notes\Notes.csproj" />
+    <ProjectReference Include="..\TO-DO\TO-DO.csproj" />
   </ItemGroup>
 
 </Project>
